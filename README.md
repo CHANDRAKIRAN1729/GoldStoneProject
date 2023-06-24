@@ -1,12 +1,12 @@
-#GoldStone Project
+GoldStone Project
 Welcome to the GoldStone project! This is a user management application built with React.js on the frontend and Node.js with MongoDB on the backend.
 
-#Prerequisites
+Prerequisites
 Before running the project, please ensure that you have the following prerequisites installed on your system:
 Node.js (v14 or above)
 MongoDB
 
-#Getting Started
+Getting Started
 To get started with the project, follow the steps below:
 1. Clone the repository to your local machine:
 git clone https://github.com/CHANDRAKIRAN1729/GoldStoneProject.git
@@ -48,20 +48,20 @@ This will start the frontend development server on http://localhost:3000.
 The project follows the following directory structure:
 
 GoldStoneProject
-├── user-management-frontend
-│   ├── public
-│   └── src
-│       ├── components
-│       ├── App.js
-│       ├── index.js
-│       └── ...
-└── user-management-app
-    ├── db.js
-    ├── models
-    ├── routes
-    ├── .env
-    ├── index.js
-    └── server.js
+    user-management-frontend
+        public
+        src
+            components
+            App.js
+            index.js
+    user-management-app
+        db.js
+        models
+        routes
+        .env
+        users.js
+        server.js
+
 user-management-frontend: Contains the frontend code built with React.js.
 user-management-app: Contains the backend code built with Node.js and Express.js.
 db.js: Contains the database connection and schema definitions using Mongoose.
