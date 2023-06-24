@@ -43,28 +43,3 @@ This will start the frontend development server on http://localhost:3000.
 9. Open your web browser and visit http://localhost:3001/api/users to access the API and save the data into the database.
 
 10. Open your web browser and visit http://localhost:3000 to access the React application.
-
-#Project Structure
-The project follows the following directory structure:
-
-GoldStoneProject
-    user-management-frontend
-        public
-        src
-            components
-            App.js
-            index.js
-    user-management-app
-        db.js
-        models
-        routes
-        .env
-        users.js
-        server.js
-
-user-management-frontend: Contains the frontend code built with React.js.
-user-management-app: Contains the backend code built with Node.js and Express.js.
-db.js: Contains the database connection and schema definitions using Mongoose.
-models: Contains the MongoDB schema models.
-routes: Contains the API routes for user management.
-.env: Contains the required environment variables.
